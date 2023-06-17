@@ -1,0 +1,218 @@
+<!doctype html>
+<html class="text-[0.7rem] md:text-[1rem]">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-Poppins">
+
+  <header class="bg-opacity-0 py-3 px-2 fixed z-50 min-w-full">
+    <nav class="flex container mx-auto justify-between items-center gap-5">
+      <div class="logo container">
+        <a href="#"><h1 class="text-2xl font-bold text-white">Chat<span class="bg-white text-black px-1 rounded-full ml-2">Io.me</span></h1></a>
+      </div>
+      <ul class="gap-14 hidden md:flex">
+        <li><a href="#home" class="text-white">Home</a></li>
+        <li><a href="#about" class="text-white">About</a></li>
+        <li><a href="#pricing" class="text-white">Pricing</a></li>
+        <li><a href="#learn" class="text-white">Learn</a></li>
+        <li><a href="#contact" class="bg-yellow p-1 mt-2 rounded-md cursor-pointer">Contact</a></li>
+      </ul>
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list md:hidden text-white cursor-pointer" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+      
+      <ul class="gap-20 absolute top-full hidden bg-primary left-0 px-14 min-h-screen">
+        <li class="p-2 text-white"><a href="#home">Home</a></li>
+        <li class="p-2 text-white"><a href="#about">About</a></li>
+        <li class="p-2 text-white"><a href="#pricing">Pricing</a></li>
+        <li class="p-2 text-white"><a href="#learn">Learn</a></li>
+        <li class="p-2 bg-yellow rounded-lg"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="relative h-[100vh]">
+    <img src="./assets/social_media.jpg" class="brightness-[25%] object-cover w-full h-full">
+    <div class="content absolute top-1/2 right-1/2 translate-x-1/2 translate-y-1/2 flex  flex-col justify-center items-center">
+      <h2 class="text-7xl text-white font-semibold">ChatIo.me</h2>
+      <button class="bg-secundary p-1 mt-2 text-white rounded-md cursor-pointer text-xl">Sign in</button>
+    </div>
+  </section>
+
+  <section id="about" class="px-3">
+    <div class="container mx-auto">
+      <h2 class="title">About</h2>
+      <p class="bg-gray p-10 leading-10">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt accusamus commodi aspernatur nostrum? Voluptas perferendis assumenda id pariatur eos. Aut voluptas velit vero mollitia praesentium at ipsa eveniet, laudantium nemo voluptates. Ut consequuntur dicta eos corrupti architecto fugit, repudiandae eius sequi aut dignissimos quos inventore nam mollitia minus pariatur ipsam neque exercitationem quo voluptates esse ex? Quia expedita aperiam similique suscipit nostrum alias accusantium, maxime eius? Impedit reprehenderit deserunt a perferendis beatae animi veritatis iusto aut qui odio esse quasi accusantium facilis voluptate minima asperiores at eveniet modi, culpa commodi laboriosam saepe explicabo? Voluptate vel, ipsam aut hic excepturi similique?
+      </p>
+    </div>
+  </section>
+
+  <section id="pricing" class="px-3">
+    <div class="container mx-auto">
+      <h2 class="title">Pricing</h2>
+      <div class="flex flex-col md:flex-row justify-center items-center gap-2">
+        <div class="border border-gray text-center p-5 drop-shadow-2xl">
+          <i class="fa-solid fa-crown text-7xl text-lightGold bg-black rounded-[50%] p-4 aspect-square"></i><br><br>
+          <h4 class="font-semibold bg-primary inline-block p-3 text-2xl text-white rounded-full">Basic</h4>
+          <h3 class="relative text-7xl font-semibold before:content-['$'] before:text-4xl before:relative before:-top-7 after:content-['/month'] after:text-4xl after:relative after:bottom-0 text-red">7</h3>
+          <div class="checks flex flex-col text-left gap-2 mt-5">
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit amet.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit amet consectetur.</span>
+          </div>
+          <button class="bg-secundary p-1 mt-2 text-white rounded-md cursor-pointer w-full">GET STARTED</button>
+        </div>
+        
+        <div class="border border-gray text-center p-5 drop-shadow-2xl">
+          <i class="fa-solid fa-crown text-7xl text-lightGold bg-black rounded-[50%] p-4 aspect-square"></i><br><br>
+          <h4 class="font-semibold bg-primary inline-block p-3 text-2xl text-white rounded-full">Golden</h4>
+          <h3 class="relative text-7xl font-semibold before:content-['$'] before:text-4xl before:relative before:-top-7 after:content-['/month'] after:text-4xl after:relative after:bottom-0 text-gold">25</h3>
+          <div class="checks flex flex-col text-left gap-2 mt-5">
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur.</span>
+          </div>
+          <button class="bg-secundary p-1 mt-2 text-white rounded-md cursor-pointer w-full">GET STARTED</button>
+        </div>
+
+        <div class="border border-gray text-center p-5 drop-shadow-2xl">
+          <i class="fa-solid fa-crown text-7xl text-lightGold bg-black rounded-[50%] p-4 aspect-square"></i><br><br>
+          <h4 class="font-semibold bg-primary inline-block p-3 text-2xl text-white rounded-full">Premium</h4>
+          <h3 class="relative text-7xl font-semibold before:content-['$'] before:text-4xl before:relative before:-top-7 after:content-['/month'] after:text-4xl after:relative after:bottom-0 text-green">15</h3>
+          <div class="checks flex flex-col text-left gap-2 mt-5">
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-x text-lightRed"></i>Lorem ipsum dolor sit amet.</span>
+            <span class="flex gap-2 items-center"><i class="fa-solid fa-check text-lightGreen"></i>Lorem ipsum dolor sit amet consectetur.</span>
+          </div>
+          <button class="bg-secundary p-1 mt-2 text-white rounded-md cursor-pointer w-full">GET STARTED</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="learn" class="px-3">
+    <div class="container mx-auto">
+      <h2 class="title">Learn</h2>
+      <div class="flex flex-col justify-between items-center gap-10 md:gap-0">
+        <div class="flex flex-col md:flex-row gap-5 items-center">
+          <div class="rounded overflow-hidden ring-2 ring-primary ring-offset-2">
+            <img src="./assets/learn_1.webp" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="text-3xl font-semibold">Design</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eveniet maiores aperiam beatae, odio, assumenda maxime iure doloribus obcaecati distinctio harum illum eaque voluptatum animi molestias nam? Voluptas, libero magni.</p>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row-reverse gap-5 items-center">
+          <div class="rounded overflow-hidden ring-2 ring-primary ring-offset-2">
+            <img src="./assets/learn_2.webp" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="text-3xl font-semibold">Programming</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eveniet maiores aperiam beatae, odio, assumenda maxime iure doloribus obcaecati distinctio harum illum eaque voluptatum animi molestias nam? Voluptas, libero magni.</p>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row gap-5 items-center">
+          <div class="rounded overflow-hidden ring-2 ring-primary ring-offset-2">
+            <img src="./assets/learn_3.webp" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h3 class="text-3xl font-semibold">Cybersecurity</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eveniet maiores aperiam beatae, odio, assumenda maxime iure doloribus obcaecati distinctio harum illum eaque voluptatum animi molestias nam? Voluptas, libero magni.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="px-3">
+    <div class="container mx-auto">
+      <h2 class="title">Contact</h2>
+      <form class="flex gap-5 flex-col items-center justify-center mx-auto bg-gray p-5 w-full md:w-4/5 rounded">
+        <h2 class="text-xl font-bold">Get in Touch</h2>
+        <div class="flex flex-col md:flex-row w-full gap-5">
+          <input type="text" placeholder="Name" class="flex-1 p-1 ring-2 ring-primary ring-offset-2 rounded">
+          <input type="email" placeholder="Email" class="flex-1 p-1 ring-2 ring-primary ring-offset-2 rounded">
+        </div>
+        <textarea class="resize-none w-full h-52 p-1 ring-2 ring-primary ring-offset-2 rounded" placeholder="Message"></textarea>
+        <input type="submit" value="Send message" class="bg-secundary p-1 mt-2 text-white rounded-md cursor-pointer w-full">
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-primary mt-16 text-center p-3 px-3">
+    <p class="text-lg text-white">&copy ChatIo.me | All rights reserved</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/0e43870383.js" crossorigin="anonymous"></script>
+
+  <script>
+    const header = document.querySelector('header');
+    const menuListMobile = document.querySelector('ul:last-child');
+    const menuBtn = document.querySelector('.bi-list');
+    
+    if(this.scrollY >= 280){
+      header.classList.add('bg-primary')
+      header.classList.remove('bg-opacity-0')
+    }
+
+    menuBtn.addEventListener('click', () => {
+      menuListMobile.classList.toggle('hidden')
+      if(!menuListMobile.classList.contains('hidden') ) {
+        header.classList.add('bg-primary')
+        header.classList.remove('bg-opacity-0')
+        return
+      } else if(scrollY < 280 && menuListMobile.classList.contains('hidden')) {
+        header.classList.remove('bg-primary')
+        header.classList.add('bg-opacity-0') 
+      }
+    })
+
+    window.addEventListener('scroll', () =>{
+      if(this.scrollY >= 280){
+        header.classList.add('bg-primary')
+        header.classList.remove('bg-opacity-0')
+      } else{
+        if(!menuListMobile.classList.contains('hidden')) return
+        header.classList.remove('bg-primary')
+        header.classList.add('bg-opacity-0')
+      }
+
+      function updateNav() {
+        const currentRegion = [...document.querySelectorAll(".region:not([id=''])")].find(e=>e.getBoundingClientRect().top>=0)
+    
+        if(currentRegion) {
+          [...document.querySelectorAll(`a:not([href='#${currentRegion.id}'])`)].forEach(a=>a.classList.remove('red'))
+          document.querySelector(`a[href='#${currentRegion.id}']`)?.classList.add('red')
+        }
+      }
+    })
+
+    window.addEventListener('resize', () =>{
+      if(window.innerWidth >= 768){
+        menuListMobile.classList.add('hidden')
+      }
+    })
+
+  </script>
+
+</body>
+</html>
