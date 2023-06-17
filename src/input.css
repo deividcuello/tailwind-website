@@ -10,6 +10,6 @@
 
 @layer base {
   .title{
-    @apply font-bold text-4xl py-5
+    @apply font-bold text-4xl pt-10 pb-5
   }
 }
